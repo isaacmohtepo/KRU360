@@ -1,0 +1,63 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+    background-color: #023047;
+}
+
+.humo img {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.humo {
+    position: sticky;
+    bottom: -5px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.espacio_1 {
+    position: relative;
+    z-index: 1;
+    height: 1000px;
+    width: 100%;
+}
+
+.cielo2 {
+    position: relative;
+    z-index: 1;
+    background-color: #023047;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.humo .title h2 {
+    font-size: 100px;
+    margin: 20px 0;
+    color: #ffffff;
+    font-weight: 900;
+    text-shadow: 1px 0 7px rgba(0, 0, 0, 0.64);
+    z-index: -1;
+}
+
+.humo .title h2 span {
+    color: #fb8501;
+}
+

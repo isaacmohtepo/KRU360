@@ -1,0 +1,82 @@
+.form form {
+    position: absolute;
+    right: 60px;
+    top: 20%;
+}
+
+.form form select {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-image: url("/images/selecc.png");
+    width: 220px;
+    height: 40px;
+    padding: 0 10px;
+    border-radius: 20px;
+    border: 1px solid #fd9f02;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.form form select:focus {
+    outline: none;
+}
+
+.form form select option {
+    background-color: #fd9f02;
+    color: #fff;
+
+}
+
+.form form .content p {
+    font-size: 36px;
+    font-weight: 400;
+    color: #ffffff;
+    width: 400px;
+}
+
+.form form .content p span {
+    font-weight: 800;
+    color: #fd9f02;
+}
+
+.form form .boton {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form form .boton .btn_despegar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    border-radius: 20px;
+    border: none;
+    height: 40px;
+    background-color: #fd9f02;
+    color: #023047;
+    font-weight: 900;
+    cursor: pointer;
+    transition: .8s;
+}
+
+.form form .boton .btn_reservar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    border-radius: 20px;
+    height: 40px;
+    background-color: #023047;
+    color: #fd9f02;
+    border: solid 1px #fd9f02;
+    font-weight: 900;
+    cursor: pointer;
+    transition: .8s;
+}

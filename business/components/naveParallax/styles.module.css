@@ -1,0 +1,6 @@
+.nave{
+    position: absolute;
+    bottom: -15px;
+    z-index: 2;
+}
+

@@ -1,0 +1,48 @@
+.contentConquista{
+    width: 450px;
+    position: relative;
+}
+.contentConquista h2{
+    font-size: 67px;
+    margin: 0;
+    color: #ffffff;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.contentConquista h2 span{
+    color: #fb8501;
+}
+
+.contentConquista p{
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 400;
+}
+.contentConquista p:before{
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: #fd9f02;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -17px;
+    border-radius: 100%;
+}
+
+.contentConquista button{
+    font-size: 18px;
+    border: none;
+    background-color: #fb8501;
+    color: #ffffff;
+    font-weight: bold;
+    height: 40px;
+    width: 100%;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.contentConquista button:hover{
+    background-color: #f9a03a;
+}

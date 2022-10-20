@@ -1,0 +1,50 @@
+.searchCompany {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 120px;
+    z-index: 1;
+}
+
+.searchCompany .title h1 {
+    color: #89cde4;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.group{
+    position: relative;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+}
+.group i{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.56);
+    font-size: 25px;
+    top: 11px;
+    right: 15px;
+
+}
+.searchCompany input {
+    border: 1px solid #fd9f02;
+    width: 100%;
+    height: 45px;
+    border-radius: 60px;
+    background-color: transparent;
+    padding: 0 20px;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+
+.searchCompany input:focus {
+    outline: none;
+    border: 1px solid #89cde4;
+}
+
+.searchCompany input::placeholder {
+    color: rgba(255, 255, 255, 0.56);
+}

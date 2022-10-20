@@ -1,0 +1,29 @@
+.section{
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #023047;
+    z-index: 1;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+.title h2{
+    font-size: 45px;
+    margin: 0;
+    color: #ffffff;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.title h2 span{
+    color: #fb8501;
+}
+
+.multimedia{
+
+}

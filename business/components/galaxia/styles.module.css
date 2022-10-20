@@ -1,0 +1,4 @@
+.galaxia img{
+    cursor: pointer;
+    transform: translateZ(40px) scale(0.8);
+}

@@ -1,0 +1,7 @@
+.mountains{
+    position: absolute;
+    width: 100%;
+    bottom: -4px;
+    display: flex;
+    align-items: flex-end;
+}
