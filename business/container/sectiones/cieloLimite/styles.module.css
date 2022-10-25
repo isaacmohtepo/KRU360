@@ -1,9 +1,9 @@
 .section {
     position: relative;
     background-color: #023047;
-    height: 700px;
-    z-index: 1;
-    background-image: url("/images/fondoNebulosa.png");
+    height: 1000px;
+    z-index: 2;
+    background-image: url("/images/fondoNebulosa.webp");
     background-size: cover;
     background-position: bottom;
     background-attachment: scroll;
@@ -16,6 +16,7 @@
     position: absolute;
     width: 100%;
     top: 0;
+    z-index: 2;
 }
 
 .humo img {

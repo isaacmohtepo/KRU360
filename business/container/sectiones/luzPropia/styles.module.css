@@ -1,4 +1,4 @@
-.section{
+.section {
     background-image: url("/images/estrellas-sol.webp");
     position: relative;
     height: 100vh;
@@ -9,7 +9,47 @@
     justify-content: flex-end;
     z-index: 2;
 }
-.content{
+
+.content {
     position: absolute;
     right: 110px;
+}
+
+@media (max-width: 1300px) {
+    .section {
+        height: 1000px;
+    }
+
+    .content {
+        right: 100px;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .section {
+        height: 700px;
+        align-items: flex-start;
+    }
+
+    .content {
+        top: 80px;
+        left: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .content {
+        top: 80px;
+        right: 0;
+        left: 0;
+        padding: 0 40px;
+    }
+}
+
+@media (max-width: 650px) {
+    .section {
+        height: 550px;
+    }
+
 }

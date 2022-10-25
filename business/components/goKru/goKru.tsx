@@ -3,7 +3,7 @@ export default function GoKru() {
     return (
         <>
             <div className={styles.goKru}>
-                <img src="/images/go-kru.png" alt="Go KRU"/>
+                <img width={112} height={84} src="/images/go-kru.png" alt="Go KRU"/>
             </div>
         </>
     )

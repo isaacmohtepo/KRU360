@@ -6,7 +6,7 @@ export default function Layout({children}: any) {
         <div>
             <Header/>
             <Navbar/>
-            <main>
+            <main lang={"es"}>
                 {children}
             </main>
         </div>

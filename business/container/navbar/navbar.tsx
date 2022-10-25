@@ -6,9 +6,9 @@ export default function Navbar() {
         <>
             <nav>
                 <div className={styles.navbar}>
-                    <div className="logo">
+                    <div className={styles.logo}>
                         <Link href="/">
-                        <a><img src="/images/logos/logo-kru.png" alt="logo | KRU 360"/></a>
+                        <a><img width={181} height={92} src="/images/logos/logo-kru.png" alt="logo | KRU 360"/></a>
                         </Link>
                     </div>
                 </div>

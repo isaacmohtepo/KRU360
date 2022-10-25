@@ -1,8 +1,11 @@
 import styles from './styles.module.css';
 import NaveParallax from "../../../components/naveParallax/naveParallax";
+import {useEffect, useState} from "react";
 
 
 export default function ParallaxCieloTexto() {
+
+
     return (
         <>
             <section className={styles.section}>
@@ -17,7 +20,7 @@ export default function ParallaxCieloTexto() {
                     <h2>Organización = aceleración</h2>
                     <h2>Planta tu bandera</h2>
                     <div className={styles.fondo_efecto}>
-                        <img src="/images/fondo-parallax.png" alt=""/>
+                        <img width={1920} height={1080} loading={"lazy"} src="/images/fondo-parallax.png" alt="Fondo"/>
                     </div>
                     <div className={styles.nave}>
                         <NaveParallax/>

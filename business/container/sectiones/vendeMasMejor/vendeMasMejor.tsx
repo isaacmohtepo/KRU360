@@ -11,9 +11,10 @@ export default function VendeMasMejor() {
                 </div>
 
                 <div className={styles.general}>
+                    <Form_2/>
                     <div className={styles.videoCohete}>
-                        <video width="100%" height="100%"  src="/video/Vendemásymejor.mp4" autoPlay={true} muted loop />
-                        <Form_2/>
+                        <img width={1920} height={1080} className={styles.escritorio} src="/images/Vendemásymejor.jpg" alt="Vende más y mejor"/>
+                        <img width={1920} height={1080} className={styles.movil} src="/images/VendemasymejorMovil.jpg" alt="Vende más y mejor"/>
                     </div>
 
                 </div>

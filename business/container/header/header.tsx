@@ -4,8 +4,10 @@ import Head from "next/head";
 export default function Header() {
     return (
         <>
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
             <meta name="keywords" content="Kru 360 Impacto a 360° en Cartagena, Colombia"/>
             <meta name="author" content="KRU 360" />
+            <link rel="canonical" href="https://www.kru360.com"/>
             <meta name="robots" content="index, follow" />
             <meta name="googlebot" content="index, follow" />
             <Head>

@@ -30,3 +30,11 @@
         transform: translateX(0%);
     }
 }
+
+
+@media (max-width: 980px) {
+    .social{
+        top: 400px;
+        right: 20px;
+    }
+}

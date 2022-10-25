@@ -11,7 +11,7 @@
     margin-bottom: 10px;
 }
 
-.title p{
+.title p {
     color: #ffffff;
     font-size: 24px;
     margin: 0;
@@ -19,6 +19,7 @@
     font-weight: 300;
     width: 680px;
 }
+
 .form form {
     background-color: #fff;
     display: flex;
@@ -49,7 +50,7 @@
     color: #727272;
 }
 
-.form form .boton{
+.form form .boton {
     display: flex;
     flex-direction: column;
 }
@@ -75,7 +76,7 @@
     outline: none;
 }
 
-.form form .boton a{
+.form form .boton a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,7 +91,17 @@
     transition: 1s;
 }
 
-.form form .boton a:hover{
+.form form .boton a:hover {
     color: #fd9f02;
     border: 1px solid #fd9f02;
+}
+
+@media (max-width: 767px) {
+    .form form {
+        width: 350px;
+    }
+    .title p {
+        width: 100%;
+    }
+
 }

@@ -8,7 +8,7 @@ export default function Star() {
             <ParallaxProvider>
                 <div className={styles.background}>
                     <Parallax translateX={[-90, 0]} >
-                        <img src="/images/estrellas.png" alt="Estrella KRU"/>
+                        <img width={3000} height={2000} src="/images/estrellas.png" alt="Estrella KRU"/>
                     </Parallax>
                 </div>
             </ParallaxProvider>

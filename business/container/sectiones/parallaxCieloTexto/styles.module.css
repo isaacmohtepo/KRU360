@@ -29,7 +29,6 @@
 }
 
 
-
 .grupo2 img {
     height: 100%;
     width: 100%;
@@ -56,6 +55,32 @@
 .fondo_efecto img {
     object-fit: cover;
     width: 100%;
+    max-width: 100%;
     height: 100%;
 
+}
+
+@media (max-width: 1800px) {
+    .parallaxCieloTexto h2 {
+        font-size: 100px;
+    }
+}
+
+@media (max-width: 1550px) {
+    .parallaxCieloTexto h2 {
+        font-size: 80px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .parallaxCieloTexto h2 {
+        font-size: 60px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .parallaxCieloTexto h2 {
+        font-size: 40px;
+    }
 }

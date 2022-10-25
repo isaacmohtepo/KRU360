@@ -4,3 +4,7 @@
     z-index: 2;
 }
 
+.nave img{
+    max-width: 100%;
+    height: auto;
+}

@@ -9,13 +9,14 @@ export default function Form_1() {
             </div>
             <div className={styles.form}>
                 <form action="">
+
                     <input type="text" placeholder="Nombre completo del empresario/a"/>
                     <input type="text" placeholder="Correo electrónico"/>
                     <input type="text" placeholder="Número de teléfono"/>
 
                     <div className={styles.boton}>
                         <button>Reservar silla</button>
-                        <a href="">Aún no</a>
+                        <a href="#">Aún no</a>
                     </div>
                 </form>
             </div>

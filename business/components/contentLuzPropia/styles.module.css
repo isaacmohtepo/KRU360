@@ -1,15 +1,16 @@
 .contentLuzPropia {
     position: relative;
-    width: 480px;
     z-index: 2;
 }
 
 .contentLuzPropia h2 {
-    font-size: 67px;
+    width: 480px;
+    font-size: 45px;
     margin: 0;
     color: #ffffff;
     font-weight: 900;
     text-transform: uppercase;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.62);
 }
 
 .contentLuzPropia h2 span {
@@ -17,12 +18,14 @@
 }
 
 .contentLuzPropia p {
+    width: 480px;
     font-size: 22px;
     color: #ffffff;
     font-weight: 400;
-    text-shadow: #000 1px 0 7px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.62);
 }
-.contentLuzPropia p:before{
+
+.contentLuzPropia p:before {
     content: "";
     display: block;
     width: 10px;
@@ -32,4 +35,34 @@
     margin-top: 10px;
     margin-left: -17px;
     border-radius: 100%;
+}
+
+@media (max-width: 800px) {
+    .contentLuzPropia {
+        padding: 0 40px;
+    }
+
+    .contentLuzPropia p {
+        width: 100%;
+    }
+
+    .contentLuzPropia h2 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .contentLuzPropia {
+        padding: 0;
+    }
+}
+
+@media (max-width: 650px) {
+    .contentLuzPropia p {
+        font-size: 20px;
+    }
+
+    .contentLuzPropia h2 {
+        font-size: 35px;
+    }
 }

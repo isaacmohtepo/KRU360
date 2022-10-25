@@ -4,7 +4,7 @@ export default function HumoSol() {
     return (
         <>
             <div className={styles.Humo}>
-                <img src="/images/humoNebulosa.png" alt="Humo KRU"/>
+                <img loading={"lazy"} src="/images/humoNebulosa.png" alt="Humo KRU"/>
             </div>
         </>
     )

@@ -2,15 +2,14 @@ import '../styles/globals.css'
 import 'boxicons/css/boxicons.min.css'
 import type {AppProps} from 'next/app'
 import {useEffect} from "react";
+import AOS from 'aos';
+import "aos/dist/aos.css";
 
 function MyApp({Component, pageProps}: AppProps) {
 
-    //scroll to top
     useEffect(() => {
-        window.scrollTo(0, 0)
-    }, [])
-
-
+        AOS.init({duration: 1000});
+    }, []);
 
     return (
         <>

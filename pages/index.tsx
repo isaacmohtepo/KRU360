@@ -9,12 +9,15 @@ import LuzPropia from "../business/container/sectiones/luzPropia/luzPropia";
 import CieloLimite from "../business/container/sectiones/cieloLimite/cieloLimite";
 import MedicionEsAceleracion from "../business/container/sectiones/medicionEsAceleracion/medicioEsAceleracion";
 import HumoParallax from "../business/components/humoParallax/humoParallax";
+import PlantaTuBandera from "../business/container/sectiones/plantaTuBandera/plantaTuBandera";
 
 const Home: NextPage = () => {
+
 
     return (
         <>
             <Layout>
+
                 <HeaderHome/>
                 <CrecerEsPosible/>
                 <VendeMasMejor/>
@@ -24,6 +27,7 @@ const Home: NextPage = () => {
                 <LuzPropia/>
                 <CieloLimite/>
                 <MedicionEsAceleracion/>
+                <PlantaTuBandera/>
 
             </Layout>
 
