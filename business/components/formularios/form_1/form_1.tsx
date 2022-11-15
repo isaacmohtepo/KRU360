@@ -7,7 +7,7 @@ export default function Form_1() {
                 <h2>Reserva tu silla</h2>
                 <p>Tenemos 50 sillas disponibles para nuestro próximo lanzamiento al espacio de clientes.</p>
             </div>
-            <div className={styles.form}>
+            <div className={styles.form} data-aos="fade-up">
                 <form action="">
 
                     <input type="text" placeholder="Nombre completo del empresario/a"/>

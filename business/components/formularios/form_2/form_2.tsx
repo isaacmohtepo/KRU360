@@ -2,7 +2,7 @@ import styles from './styles.module.css';
 export default function Form_2() {
     return(
         <>
-            <div className={styles.form}>
+            <div className={styles.form} data-aos="fade-left">
                 <form action="">
                     <select name="" id="">
                         <option value="">Soy empresario</option>

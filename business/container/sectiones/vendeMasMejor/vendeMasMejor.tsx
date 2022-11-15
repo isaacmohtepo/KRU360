@@ -6,7 +6,7 @@ export default function VendeMasMejor() {
         <>
             <section className={styles.section}>
 
-                <div className={styles.title}>
+                <div className={styles.title} data-aos="zoom-in-up">
                     <h2><span>VENDE MÁS</span> Y MEJOR</h2>
                 </div>
 

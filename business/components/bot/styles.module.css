@@ -1,0 +1,82 @@
+.bot {
+    height: auto;
+    position: absolute;
+    bottom: 60px;
+    z-index: 4;
+    right: 40px;
+    cursor: pointer;
+    animation: bot 3s infinite;
+}
+
+@keyframes bot {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+.bot:before {
+    content: '';
+    position: absolute;
+    background-color: rgba(1, 37, 55, 0.93);
+    bottom: -20px;
+    border-radius: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 20px;
+    filter: blur(1px);
+    box-shadow: 0 0 10px 0 #012537;
+    animation: sombra 3s infinite;
+}
+
+@keyframes sombra {
+    0% {
+        width: 30px;
+    }
+    50% {
+        width: 50px;
+    }
+    100% {
+        width: 30px;
+    }
+}
+
+.botMovil {
+    width: 124px;
+    height: 65px;
+    display: none;
+}
+
+@media (max-width: 850px) {
+    .bot {
+        bottom: 324px;
+        right: 10px;
+    }
+
+    .bot:before {
+        display: none;
+    }
+
+    .botEscritorio {
+        display: none;
+    }
+
+    .botMovil {
+        display: block;
+        width: 124px;
+        height: 65px;
+    }
+}
+
+@media (max-width: 375px) {
+    .bot {
+        bottom: 263px;
+    }
+}

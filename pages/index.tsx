@@ -10,6 +10,7 @@ import CieloLimite from "../business/container/sectiones/cieloLimite/cieloLimite
 import MedicionEsAceleracion from "../business/container/sectiones/medicionEsAceleracion/medicioEsAceleracion";
 import HumoParallax from "../business/components/humoParallax/humoParallax";
 import PlantaTuBandera from "../business/container/sectiones/plantaTuBandera/plantaTuBandera";
+import Cohete from "../business/components/cohtete/cohete";
 
 const Home: NextPage = () => {
 

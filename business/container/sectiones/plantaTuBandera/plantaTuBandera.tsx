@@ -1,14 +1,17 @@
 import styles from './styles.module.css';
 import ContentPlantaBandera from "../../../components/contentPlantaBandera/contentPlantaBandera";
+import Cohete from "../../../components/cohtete/cohete";
+import {Parallax, ParallaxProvider} from "react-scroll-parallax";
 
 
 export default function PlantaTuBandera() {
     return (
         <>
+
             <section className={styles.section}>
 
                 <div className={styles.content}>
-                    <ContentPlantaBandera />
+                    <ContentPlantaBandera/>
                 </div>
 
                 <div className={styles.luna}>
@@ -25,10 +28,13 @@ export default function PlantaTuBandera() {
                 <div className={styles.nave2}>
                     <img width={244} height={309} src="/images/nave-aterrizando2.png" alt="Nave KRU"/>
                 </div>
-
+                <ParallaxProvider>
                 <div className={styles.nave}>
-                    <img width={339} height={408} src="/images/nave-aterrizando.png" alt="Nave KRU"/>
+                    <Parallax translateY={[100,0]}>
+                        <img width={339} height={408} src="/images/nave-aterrizando.png" alt="Nave KRU"/>
+                    </Parallax>
                 </div>
+                </ParallaxProvider>
                 <div className={styles.antenas}>
                     <img width={171} height={426} src="/images/antenas.png" alt="Antenas"/>
                 </div>
@@ -38,6 +44,7 @@ export default function PlantaTuBandera() {
                 <div className={styles.rejas}>
                     <img width={1920} height={50} src="/images/rejas.png" alt="Rejas"/>
                 </div>
+
             </section>
         </>
     )

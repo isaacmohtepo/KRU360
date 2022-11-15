@@ -30,6 +30,8 @@
 .group_2 {
     height: 100vh;
     position: sticky;
+    display: flex;
+    justify-content: center;
 }
 
 .plataforma {
@@ -42,8 +44,8 @@
     z-index: 10;
 }
 
-@media (max-height: 685px) {
+@media (max-height: 600px) {
     .group_2 {
-        height: 685px;
+        height: 600px;
     }
 }

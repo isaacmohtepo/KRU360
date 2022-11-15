@@ -1,4 +1,8 @@
-.coheteGeneral{
+.coheteGeneral {
+    background-color: #023047;
+    position: relative;
     width: 200px;
+    height: 200px;
     transform: rotate(90deg);
+    z-index: 2;
 }

@@ -29,9 +29,10 @@
     font-size: 25px;
     top: 11px;
     right: 15px;
-
 }
-
+.group i:hover {
+    color: #fd9f02;
+}
 .searchCompany input {
     border: 1px solid #fd9f02;
     width: 100%;
@@ -62,6 +63,23 @@
         width: 600px;
     }
 }
+@media (max-height: 707px){
+    .searchCompany {
+        top: 80px;
+    }
+}
+@media (max-width: 876px) {
+    .searchCompany{
+        top: 120px;
+    }
+
+}
+
+@media (max-width: 850px) {
+    .searchCompany .title h1 {
+        font-size: 22px;
+    }
+}
 
 @media (max-width: 703px) {
 
@@ -69,3 +87,4 @@
         width: 100%;
     }
 }
+
