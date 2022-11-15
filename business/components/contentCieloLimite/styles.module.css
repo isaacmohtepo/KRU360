@@ -1,0 +1,53 @@
+.ContentCieloLimite{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ContentCieloLimite h2{
+    font-size: 40px;
+    margin: 0;
+    color: #ffffff;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+}
+.ContentCieloLimite h2 span{
+    color: #fb8501;
+}
+.ContentCieloLimite p{
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 400;
+    text-shadow: #000 1px 0 7px;
+    text-align: justify;
+}
+
+.ContentCieloLimite button{
+    background-color: #fb8501;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 500px;
+    height: 40px;
+    transition: 1s;
+}
+
+.ContentCieloLimite button:hover{
+    background-color: #ffffff;
+    color: #fb8501;
+}
+
+@media (max-width: 767px) {
+    .ContentCieloLimite{
+        width: 100%;
+        padding: 0 40px;
+    }
+    .ContentCieloLimite button{
+        width: 100%;
+    }
+}

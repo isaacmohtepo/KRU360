@@ -1,0 +1,11 @@
+.galaxia img {
+    cursor: pointer;
+    max-width: 100%;
+    transition: .8s;
+}
+@media (max-width: 767px) {
+    .galaxia img {
+       opacity: 0.6;
+    }
+}
+

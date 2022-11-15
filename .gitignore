@@ -33,6 +33,4 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
-
-# webstorm/intellij
-.idea
+next-env.d.ts
