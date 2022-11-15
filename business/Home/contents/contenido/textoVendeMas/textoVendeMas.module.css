@@ -1,0 +1,30 @@
+.vendeMas{
+    font-size: 45px;
+    font-weight: 600;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+@media (max-width: 711px) {
+    .vendeMas {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .vendeMas {
+        font-size: 32px;
+        margin-bottom: 50px;
+        padding: 5px;
+    }
+}
+@media (max-width: 398px) {
+    .vendeMas {
+        font-size: 27px;
+        margin-bottom: 10px;
+    }
+}
+
+.vende{
+    color: #fd9f02;
+}

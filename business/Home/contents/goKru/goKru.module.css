@@ -1,0 +1,17 @@
+@media (max-width: 718px) {
+    .goKru {
+        display: none;
+    }
+
+}
+
+.goKru {
+    position: absolute;
+    bottom: 56px;
+    z-index: 10;
+    left: 56px;
+}
+
+.imgGoKru {
+    width: 100%;
+}

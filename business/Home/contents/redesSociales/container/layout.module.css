@@ -1,0 +1,14 @@
+.redesSociales {
+    position: absolute;
+    flex-direction: column;
+    top: 184px;
+    right: 13px;
+    z-index: 9999;
+}
+
+@media (max-width: 850px) {
+    .redesSociales {
+        top: 443px;
+        left: 13px;
+    }
+}

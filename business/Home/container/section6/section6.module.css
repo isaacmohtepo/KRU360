@@ -1,0 +1,14 @@
+.home6{
+    height: 100vh;
+    position: relative;
+    background-image: url("/images/fondoBrillaConLuzPropia.png");
+    background-size: cover;
+    background-position: bottom;
+}
+
+@media (max-width: 800px) {
+    .home6 {
+        height: 800px;
+    }
+}
+

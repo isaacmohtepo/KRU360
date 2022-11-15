@@ -1,0 +1,38 @@
+.containerGeneral {
+    position: absolute;
+    text-align: center;
+    top: 30px;
+
+}
+
+.title {
+    font-size: 45px;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.cielo {
+    color: #fd9f02;
+}
+
+.parrafo {
+    font-size: 20px;
+    color: #fff;
+    width: 600px;
+    text-align: justify;
+}
+
+@media (max-width: 800px) {
+    .containerGeneral {
+        position: absolute;
+
+        text-align: center;
+        padding: 20px;
+    }
+
+    .parrafo {
+        width: 100%;
+    }
+}

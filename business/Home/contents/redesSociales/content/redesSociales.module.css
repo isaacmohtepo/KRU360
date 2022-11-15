@@ -1,0 +1,12 @@
+
+.iconSocial {
+    color: #fff;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    text-decoration: none;
+}
+.iconSocial:hover {
+    color: #fd9f02;
+}

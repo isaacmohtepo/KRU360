@@ -1,0 +1,13 @@
+.home5 {
+    height: 100vh;
+    position: relative;
+    background-image: url("/images/fondoConquistaLaFalaxia.png");
+    background-size: cover;
+}
+
+@media (max-width: 800px) {
+    .home5 {
+        height: 670px;
+    }
+}
+

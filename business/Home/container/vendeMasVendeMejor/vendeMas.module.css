@@ -1,0 +1,8 @@
+.baseVendeMas{
+    height: 150px;
+    background-color: #023047;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1px;
+}

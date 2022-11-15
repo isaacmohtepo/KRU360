@@ -1,0 +1,16 @@
+.iconSocial {
+    color: #fff;
+    font-size: 2rem;
+    margin: 15px;
+    text-decoration: none;
+    margin-top: 40px;
+}
+.iconSocial:hover {
+    color: #fd9f02;
+}
+
+.socialGeneral{
+    text-align: center;
+    margin-top: 40px;
+
+}

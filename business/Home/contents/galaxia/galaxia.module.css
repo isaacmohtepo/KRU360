@@ -1,0 +1,14 @@
+.galaxia {
+    position: absolute;
+    right: 0;
+    top: 0;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+
+@media (max-width: 800px) {
+    .galaxia {
+        position: relative;
+    }
+}

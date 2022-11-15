@@ -1,0 +1,14 @@
+.home3 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+@media (max-width: 800px) {
+    .home3 {
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        background: #023047;
+    }
+}

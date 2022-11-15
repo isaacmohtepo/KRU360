@@ -1,0 +1,23 @@
+.botHablando{
+    position: absolute;
+    margin-right: 800px;
+    margin-top: 250px;
+}
+
+.video{
+    width: 500px;
+}
+
+@media(max-width: 767px){
+  .video{
+    width: 100%;
+  }
+}
+
+@media (max-width: 1000px) {
+    .botHablando{
+        position: relative;
+        margin-right: 0;
+        margin-top: 70px;
+    }
+}

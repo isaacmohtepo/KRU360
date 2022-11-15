@@ -1,0 +1,19 @@
+.videoHome3 {
+    width: 100%;
+}
+
+.videoHome3Movil{
+    width: 100%;
+    display: none;
+    margin-top: 8px;
+}
+
+@media (max-width: 800px) {
+    .videoHome3 {
+        display: none;
+    }
+
+    .videoHome3Movil {
+        display: block;
+    }
+}

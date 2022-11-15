@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;900&display=swap');
+html,
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #032f48;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bx-right-arrow-alt {
+    position: absolute;
+    margin-top: 28px;
+    font-size: 25px;
+    margin-left: -41px;
+    cursor: pointer;
+}
+
+.row .centrarInputEmpresa {
+    display: flex;
+    justify-content: center;
+}
+
+.inputEmpresa {
+    background-color: transparent;
+    border: solid 1px #fd9f02;
+    border-radius: 20px;
+    margin-top: 16px;
+    height: 47px;
+}
+
+.inputEmpresa::placeholder {
+    color: rgba(255, 255, 255, 0.56) !important;
+}
+
+.inputEmpresa {
+    color: #fff;
+}
+
+.inputEmpresa:focus {
+    color: #fff;
+    background-color: transparent;
+}
+
+.btnReservarSilla {
+    background-color: #fd9f02;
+    border-radius: 20px;
+    color: #fff;
+
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.btnReservarSilla:hover {
+    background-color: #fff;
+    color: #fd9f02;
+    border: #bfc1c1 solid 1px;
+}
+
+.btnAunNo {
+    background-color: #fff;
+    border-radius: 20px;
+    color: #bfc1c1;
+    font-size: 16px;
+    border: #bfc1c1 solid 1px;
+    font-weight: bold;
+    margin-top: 8px;
+    width: 100%;
+}
+
+.btnAunNo:hover {
+    background-color: #ffffff;
+    color: #fd9f02;
+}
+
+.formGeneral {
+    background-color: #ffff;
+    padding: 20px;
+    border-radius: 20px;
+    width: 400px;
+}
+
+.formGeneral .inputSilla {
+    margin: 10px 0;
+    border-radius: 20px;
+    border: #fd9f02 solid 1px;
+}
+
+@media (max-width: 537px) {
+    .formGeneral {
+        width: 100%;
+    }
+}
+
+.btnDespegar {
+    background-color: #fd9f02;
+    border-radius: 20px;
+    color: #032f48;
+    font-size: 16px;
+    font-weight: 600;
+    width: 90%;
+    margin-top: 16px;
+}
+
+.btnDespegar:hover {
+    color: #fff;
+}
+
+.btnReservar {
+    background-color: #032f48;
+    border-radius: 20px;
+    color: #fd9f02;
+    border: solid 1px #fd9f02;
+    font-size: 16px;
+    font-weight: 600;
+    width: 90%;
+    margin-top: 16px;
+}
+
+.btnReservar:hover {
+    color: #fff;
+}
+
+.formSelectVendeMas {
+    background-color: transparent;
+    color: #fff;
+    width: 214px;
+    border-radius: 20px;
+    border: solid 1px #fd9f02;
+    background-image: url("/images/selecc.png");
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+
+.form-select:focus {
+    border-color: #fd9f02;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(253 159 2 / 34%);
+}
+
+select option {
+    background-color: #fd9f02;
+    border-radius: 20px;
+}
+
+
+.sol {
+    position: absolute;
+    bottom: 0;
+}
+
+.galaxia {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.btnReservarGalaxia:hover {
+    background-color: transparent;
+    border-radius: 20px;
+    color: #fd9f02;
+    border: solid 1px #fd9f02;
+    font-size: 16px;
+    font-weight: 600;
+    width: 90%;
+    margin-top: 16px;
+    transition: 900ms;
+}
+
+.btnReservarGalaxia {
+    background-color: #fd9f02;
+    border-radius: 20px;
+    color: #ffffff;
+    border: solid 1px #fd9f02;
+    font-size: 16px;
+    font-weight: 600;
+    width: 90%;
+    margin-top: 16px;
+}
+
+.btnReservarPlantar {
+    background-color: #fd9f02;
+    border-radius: 20px;
+    color: #032f48;
+    font-size: 16px;
+    font-weight: 600;
+    width: 75%;
+    margin-top: 16px;
+}
+.btnReservarCielo{
+    background-color: #fd9f02;
+    border-radius: 20px;
+    color: #032f48;
+    font-size: 16px;
+    font-weight: 600;
+    width: 75%;
+    margin-top: 16px;
+}
+.btnReservarCielo:hover {
+    color: #fff;
+}
+.btnReservarPlantar:hover {
+    color: #ffffff;
+}
+
+.btnReservarPlantar:hover {
+    color: #ffffff;
+}
+.btnReservarLenguaje{
+    background-color: #fd9f02;
+    border-radius: 20px;
+    color: #032f48;
+    font-size: 16px;
+    font-weight: 600;
+    width: 80%;
+    margin-top: 16px;
+}
+@media (max-width: 1000px) {
+    .btnReservarLenguaje {
+        width: 100%;
+    }
+}
+
+.btnReservarLenguaje:hover {
+    color: #ffffff;
+}
+
+

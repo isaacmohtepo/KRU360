@@ -1,0 +1,12 @@
+.luna{
+    position: absolute;
+    right: 59px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+@media (max-width: 1071px) {
+    .luna{
+        display: none;
+    }
+}

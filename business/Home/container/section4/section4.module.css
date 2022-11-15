@@ -1,0 +1,10 @@
+.home4{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100vh;
+    background-color: #032f48;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}

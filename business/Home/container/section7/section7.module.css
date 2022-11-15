@@ -1,0 +1,11 @@
+.home7{
+    height: 130vh;
+    position: relative;
+    background-image: url("/images/fondoNebulosa.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}

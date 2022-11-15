@@ -1,0 +1,16 @@
+.humo {
+    transform: scaleY(-1);
+    width: 100%;
+    position: absolute;
+    top: -1px;
+    ;
+}
+.tituloInfo{
+    font-size: 50px;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: 1px;
+    text-shadow: 1px 0px 7px #000;
+    text-align: center;
+}
+
